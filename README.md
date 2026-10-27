@@ -95,13 +95,13 @@ Requires [Claude Code](https://code.claude.com) with web search available to sub
 Personal skill (available in every project):
 
 ```bash
-git clone https://github.com/<you>/workflow-setup ~/.claude/skills/workflow-setup
+git clone https://github.com/d7rectCE/Workflow-Setup ~/.claude/skills/workflow-setup
 ```
 
 Project-only skill:
 
 ```bash
-git clone https://github.com/<you>/workflow-setup .claude/skills/workflow-setup
+git clone https://github.com/d7rectCE/Workflow-Setup .claude/skills/workflow-setup
 ```
 
 Start a new Claude Code session so the skill is picked up.
