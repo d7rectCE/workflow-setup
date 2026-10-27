@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [],
+    "ask": ["Bash(git push *)"],
+    "deny": ["Read(./.env)", "Read(./.env.*)", "Read(./secrets/**)"]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "<full check command> 1>&2 || exit 2" }
+        ]
+      }
+    ]
+  }
+}
